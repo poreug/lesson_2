@@ -18,10 +18,14 @@ public class Main {
         int result;
         if(operation == 1){
             result = a + b;
-        } else if(operation == 2){
+        } 
+        else if(operation == 2){
             result = a - b;
-        } else {
+        } 
+        else if(operation == 3){
             result = a * b;
+        }
+        else {System.out.println("Это мы ещё не проходили...");
         }
         System.out.println("Результат = " + result);
     }
